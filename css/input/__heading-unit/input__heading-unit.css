@@ -1,0 +1,9 @@
+.input__heading-unit {
+  margin: 0;
+  margin-left: 6px;
+
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: var(--color-gray);
+}

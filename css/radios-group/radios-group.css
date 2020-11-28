@@ -1,0 +1,15 @@
+.radios-group {
+  max-width: 94%;
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.radios-group .radio {
+  margin-bottom: 15px;
+}
+
+.radios-group .radio:last-child {
+  margin-bottom: 0;
+}

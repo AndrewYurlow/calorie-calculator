@@ -1,0 +1,10 @@
+.counter__result--hidden {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.counter__result > .heading {
+  margin-bottom: 12px;
+
+  color: var(--color-accent);
+}

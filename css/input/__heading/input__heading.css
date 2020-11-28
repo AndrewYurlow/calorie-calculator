@@ -1,0 +1,10 @@
+.input__heading {
+  display: flex;
+  align-items: flex-end;
+  margin: 0;
+  margin-bottom: 12px;
+}
+
+.input__heading label {
+  cursor: pointer;
+}

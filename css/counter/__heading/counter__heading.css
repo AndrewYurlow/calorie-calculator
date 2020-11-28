@@ -1,0 +1,7 @@
+.counter__heading {
+  margin: 0;
+  margin-bottom: 22px;
+  
+  color: var(--color-text-white);
+  text-align: center;
+}

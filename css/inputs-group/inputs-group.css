@@ -1,0 +1,13 @@
+.inputs-group {
+  display: flex;
+  align-items: flex-start;
+  margin: 0;
+  padding: 0;
+  
+  list-style: none;
+}
+
+.inputs-group .input:nth-child(2) {
+  margin-left: 47px;
+  margin-right: auto;
+}

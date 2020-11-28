@@ -1,0 +1,39 @@
+.form__reset-button {
+  display: inline-flex;
+  align-items: center;
+  margin: 0;
+  margin-left: 24px;
+  padding: 0;
+
+  font-size: 20px;
+  line-height: 16px;
+  color: var(--color-warning);
+
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+  transition: 0.3s ease;
+  transition-property: color, box-shadow;
+}
+
+.form__reset-button svg {
+  flex-shrink: 0;
+  margin-right: 1px;
+
+  fill: currentColor;
+}
+
+.form__reset-button:hover,
+.form__reset-button:focus,
+.form__reset-button:active {
+  color: var(--color-warning-hover);
+
+  outline: none;
+}
+
+.form__reset-button:disabled {
+  color: var(--color-gray-lighter);
+
+  cursor: not-allowed;
+}

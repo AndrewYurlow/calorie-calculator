@@ -1,0 +1,47 @@
+.input__wrapper {
+  display: flex;
+  width: 80px;
+  margin: 0;
+}
+
+.input__wrapper input {
+  width: 100%;
+  margin: 0;
+  padding: 10px 5px;
+
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
+  color: var(--color-text-black);
+
+  outline: none;
+  border-radius: 4px;
+  border: 0.5px solid currentColor;
+  background: transparent;
+
+  transition: 0.3s ease;
+  transition-property: color, border;
+}
+
+.input__wrapper input::placeholder {
+  color: var(--color-gray-darkest);
+
+  transition: 0.3s ease;
+  transition-property: color;
+}
+
+.input__wrapper input:hover,
+.input__wrapper input:active,
+.input__wrapper input:focus {
+  border-color: var(--color-accent);
+}
+
+.input__wrapper input:hover::placeholder,
+.input__wrapper input:active::placeholder {
+  color: var(--color-text-black);
+}
+
+.input__wrapper input:focus::placeholder {
+  color: transparent;
+}

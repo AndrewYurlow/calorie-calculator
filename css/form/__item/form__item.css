@@ -1,0 +1,14 @@
+.form__item {
+  margin: 0;
+  margin-bottom: 40px;
+  padding: 0;
+  
+  border: none;
+}
+  
+.form__item > .heading {
+  margin-bottom: 16px;
+}
+.form__item:last-child {
+  margin-bottom: 0;
+}

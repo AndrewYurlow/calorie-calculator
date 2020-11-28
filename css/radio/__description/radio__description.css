@@ -1,0 +1,8 @@
+.radio__description {
+  margin: 0;
+  margin-left: 32px;
+  margin-top: 3px;
+  padding-bottom: 2px;
+
+  color: var(--color-gray-light);
+}

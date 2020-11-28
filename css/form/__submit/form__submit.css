@@ -1,0 +1,5 @@
+.form__submit {
+  display: flex;
+  align-items: center;
+  margin-top: 42px;
+}

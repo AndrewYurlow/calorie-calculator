@@ -1,0 +1,12 @@
+.container {
+  width: 100%;
+  max-width: 1160px;
+  margin: 0 auto;
+  padding-right: 300px;
+  padding-left: 300px;
+}
+  
+.container--no-padding {
+  padding-right: 0;
+  padding-left: 0;
+}
