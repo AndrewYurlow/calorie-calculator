@@ -1,0 +1,37 @@
+input,
+textarea {
+  border-radius: 0;
+}
+
+input::placeholder,
+textarea::placeholder {
+  opacity: 1;
+}
+
+input:invalid,
+textarea:invalid {
+  box-shadow: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  margin: 0;
+
+  appearance: none;
+}
+
+select,
+textarea,
+input:matches([type="email"],
+  [type="number"],
+  [type="password"],
+  [type="search"],
+  [type="tel"],
+  [type="text"],
+  [type="url"]) {
+  appearance: none;
+}
+
+input[type="number"] {
+  appearance: textfield;
+}

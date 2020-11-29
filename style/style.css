@@ -1,5 +1,6 @@
 @import './normalize.css';
 @import '../fonts/fonts.css';
+@import '../css/header/header.css';
 @import '../css/body/body.css';
 @import '../css/page/page.css';
 @import '../css/main/main.css';
@@ -32,3 +33,4 @@
 @import '../css/counter/__result--hidden/counter__result--hidden.css';
 @import '../css/counter/__result-list/counter__result-list.css';
 @import '../css/counter/__result-item/counter__result-item.css';
+@import '../css/footer/footer.css';
