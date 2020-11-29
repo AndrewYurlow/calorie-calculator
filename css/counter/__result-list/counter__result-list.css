@@ -6,3 +6,9 @@
 
   list-style: none;
 }
+
+@media screen and (max-width: 560px) {
+  .counter__result-list {
+    margin-top: 15px;
+  }
+}

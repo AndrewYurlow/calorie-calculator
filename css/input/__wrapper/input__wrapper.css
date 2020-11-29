@@ -45,3 +45,9 @@
 .input__wrapper input:focus::placeholder {
   color: transparent;
 }
+
+@media screen and (max-width: 560px) {
+  .input__wrapper {
+    width: 125px;
+  }
+}

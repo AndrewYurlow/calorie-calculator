@@ -29,3 +29,10 @@
   cursor: not-allowed;
   background-color: var(--color-gray-lightest);
 }
+
+@media screen and (max-width: 560px) {
+  .button {
+    font-size: 18px;
+    padding: 10px 14px;
+  }
+}

@@ -22,20 +22,12 @@
   --color-warning-hover: #ff8484;
 }
 
-html,
 body {
+  width: 100%;
+  /* min-width: 1160px; */
   height: 100%;
   margin: 0;
   padding: 0;
-}
-
-html {
-  min-width: 1160px;
-}
-
-body {
-  width: 100%;
-
   font-size: 18px;
   line-height: 21px;
   font-family: "PT Sans Caption", "Arial", sans-serif;

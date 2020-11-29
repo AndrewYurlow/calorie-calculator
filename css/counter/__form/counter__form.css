@@ -14,3 +14,9 @@
 
   background-color: var(--color-background-main);
 }
+
+@media screen and (max-width: 560px){
+  .counter__form, .counter__result{
+    padding: 16px 16px;
+  }
+}

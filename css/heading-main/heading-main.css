@@ -6,3 +6,11 @@
   font-size: 64px;
   line-height: 83px;
 }
+
+@media screen and (max-width: 560px){
+  .heading-main{
+    font-size: 48px;
+    line-height: 1.15;
+    margin-bottom: 10px;
+  }
+}

@@ -12,3 +12,9 @@
 .form__item:last-child {
   margin-bottom: 0;
 }
+
+@media screen and (max-width: 560px) {
+  .form__item {
+    margin-bottom: 30px;
+  }
+}

@@ -1,3 +1,9 @@
 .form__parameters {
   margin-bottom: 34px;
 }
+
+@media screen and (max-width: 560px) {
+  .form__parameters {
+    margin-bottom: 30px;
+  }
+}
