@@ -9,7 +9,7 @@
 
 .inputs-group .input:nth-child(2) {
   margin-left: 47px;
-  margin-right: auto;
+  margin-right: 80px;
 }
 
 @media screen and (max-width:560px) {

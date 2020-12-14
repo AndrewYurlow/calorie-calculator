@@ -1,5 +1,6 @@
 .input__wrapper {
   display: flex;
+  flex-direction: column;
   width: 80px;
   margin: 0;
 }
@@ -44,6 +45,10 @@
 
 .input__wrapper input:focus::placeholder {
   color: transparent;
+}
+
+.input__wrapper input:valid {
+  border-color: green;
 }
 
 @media screen and (max-width: 560px) {

@@ -1,0 +1,10 @@
+.input__error{
+  margin-top: 5px;
+  margin-bottom: 10px;
+  width: 150px;
+  height: 15px;
+  color: red;
+  font-size: 12px;
+  line-height: 1;
+  text-align: start;
+}
