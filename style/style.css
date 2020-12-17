@@ -21,6 +21,7 @@
 @import '../css/input/__heading/input__heading.css';
 @import '../css/input/__heading-unit/input__heading-unit.css';
 @import '../css/input/__wrapper/input__wrapper.css';
+@import '../css/input/__wrapper/_error/input__wrapper_error.css';
 @import '../css/input/__error/input__error.css';
 @import '../css/radios-group/radios-group.css';
 @import '../css/radio/radio.css';

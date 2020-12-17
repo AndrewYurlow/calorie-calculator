@@ -9,10 +9,12 @@ export default class Validator {
     this._formFields = this._form.querySelectorAll(this._selectors.formItem);
   }
   _showError(input) {
+    input.closest('div').classList.add(this._selectors.inputError);
     const error = this._parameters.querySelector(`#${input.id}-error`);
     error.textContent = input.validationMessage;
   }
   _hideError(input) {
+    input.closest('div').classList.remove(this._selectors.inputError);
     const error = this._parameters.querySelector(`#${input.id}-error`);
     error.textContent = null;
   }
@@ -26,7 +28,7 @@ export default class Validator {
   _checkInputValidity() {
     this._inputs.forEach(input => {
       input.addEventListener('input', () => {
-        this._toggleSubmitButton();
+        this._toggleSubmitButton(this._submitButton);
         if(input.validity.valid) {
           this._hideError(input);
         } else {
@@ -43,6 +45,7 @@ export default class Validator {
     });
   }
   clearValidation() {
+    this._form.reset();
     this._resetButton.setAttribute('disabled', true);
     this._toggleSubmitButton();
     this._inputs.forEach(input => {
