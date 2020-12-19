@@ -7,6 +7,7 @@ import {
   calculatorSelectors,
   userParametersSelectors 
 } from "../utils/utils.js";
+import "../../style/style.css";
 
 const validator = new Validator(calorieCounter, validatorSelectors);
 const userData = new UserParameters(calorieCounter, userParametersSelectors);
